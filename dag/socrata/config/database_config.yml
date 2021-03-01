@@ -1,0 +1,6 @@
+databases:
+    host: localhost
+    port: 5432
+    user: postgres
+    dbname: kyureta
+    password: [enter your password]

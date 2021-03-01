@@ -1,0 +1,5 @@
+DATASET_ID = "77gb-8z53"
+SOURCE_PATH = "https://data.cms.gov/resource/77gb-8z53.csv"
+TARGET_PATH = "s3://medly/socrata/77gb-8z53"
+DOMAIN = "data.cms.gov"
+APP_TOKEN = "[enter your token id]"

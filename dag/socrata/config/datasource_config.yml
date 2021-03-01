@@ -1,0 +1,31 @@
+
+
+# dataset for building issues
+
+datasource:
+  77gb-8z53:
+    id: 77gb-8z53
+    title: "Medicare Provider Utilization and PaymentData: 2017 Part D Prescriber "
+    description: "This dataset provides information on prescription drugs prescribed by individual physicians and other health care providers and paid for under the Medicare Part D Prescription Drug Program"
+    app_token: [enter your token id]
+    source: https://data.cms.gov/resource/77gb-8z53.csv
+    #bucket: s3://medly/socrata/77gb-8z53
+    domain: data.cms.gov
+    file_format: csv
+    frequency: Daily
+    url: https://dev.socrata.com/foundry/data.cms.gov/77gb-8z53
+
+'''
+  erm2-nwe9:
+    id: erm2-nwe9
+    title: "311 Service Requests from 2010 to Present"
+    description: "All 311 Service Requests from 2010 to present. This information is automatically updated daily."
+    app_token: [enter your token id]
+    bucket: kyureta-socrata
+    domain: data.cityofnewyork.us
+    file_format: csv
+    frequency: Daily
+    url: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
+'''
+
+
